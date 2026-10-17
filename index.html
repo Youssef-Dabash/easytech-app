@@ -1,1 +1,114 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Tech - تحميل التطبيق</title>
+    <style>
+        :root {
+            --bg-color: #171a21;
+            --card-bg: #222831;
+            --accent-color: #e5a00d; /* لون Plex الذهبي */
+            --text-color: #ffffff;
+            --text-muted: #a0a0a0;
+        }
 
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            background-color: var(--card-bg);
+            padding: 2.5rem 2rem;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            max-width: 400px;
+            width: 90%;
+            border: 1px solid #333;
+        }
+
+        .logo-title {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: var(--accent-color);
+            margin-bottom: 0.5rem;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+        }
+
+        .btn-download {
+            display: inline-block;
+            width: 100%;
+            padding: 14px 0;
+            background-color: var(--accent-color);
+            color: #000;
+            font-weight: bold;
+            font-size: 1.1rem;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            box-sizing: border-box;
+        }
+
+        .btn-download:hover {
+            background-color: #cc8e0b;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(229, 160, 13, 0.3);
+        }
+
+        .instructions {
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #333;
+            text-align: right;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .instructions ol {
+            padding-right: 1.2rem;
+            margin-top: 0.5rem;
+        }
+
+        .instructions li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo-title">EASY TECH</div>
+        <div class="subtitle">تطبيق لمشاهدة الأفلام والمسلسلات عبر شبكتنا</div>
+
+        <!-- استبدل الرابط أدناه برابط APK الذي نسخته من GitHub Releases -->
+        <a href="https://github.com/Youssef-Dabash/easytech-app/releases/download/v1.0.0/Plex.apk" class="btn-download">
+            تحميل التطبيق الآن (APK)
+        </a>
+
+        <div class="instructions">
+            <strong>خطوات التثبيت:</strong>
+            <ol>
+                <li>اضغط على زر التحميل أعلاه.</li>
+                <li>افتح الملف بعد اكتمال التنزيل.</li>
+                <li>تواصل مع الدعم الفني لتفعيل حسابك.</li>
+            </ol>
+        </div>
+    </div>
+
+</body>
+</html>
